@@ -1,0 +1,34 @@
+
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# Testing
+**/coverage/
+
+# Production builds
+**/build/
+**/dist/
+**/target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local database configuration
+**/application-local.properties
+**/application-local.yml
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
