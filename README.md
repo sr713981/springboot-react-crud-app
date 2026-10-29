@@ -27,10 +27,10 @@ A full-stack user management application built with React, Spring Boot, Spring D
 
 ### Frontend
 
-- React 19
+- React 19.2.4
 - React Router
 - Axios
-- Bootstrap 5
+- Bootstrap 5.3.8
 - Create React App
 - npm
 
@@ -154,26 +154,11 @@ The backend context test loads the JPA configuration and therefore requires a re
 
 ## Manual CRUD Verification
 
-With MySQL, the backend, and the frontend running:
+With MySQL, the backend, and the frontend running, open `http://localhost:3000` and verify that you can add a user, view the new record, edit it, and delete it from the table.
 
-1. Open `http://localhost:3000`.
-2. Select **Add User**, enter the fields, and submit the form.
-3. Confirm the new user appears in the table.
-4. Select **View** and confirm the user's details.
-5. Select **Edit**, change a field, submit, and confirm the updated value.
-6. Select **Delete** and confirm the user is removed from the table.
+## Future Improvements
 
-## Scope and Current Limitations
-
-This project intentionally focuses on the core CRUD workflow. It does not currently include:
-
-- Authentication or authorization
-- Input validation or form error messages
-- Search, filtering, or pagination
-- Docker or cloud deployment configuration
-- API documentation tooling
-- Comprehensive automated endpoint tests
-
-## Resume Description
-
-This project demonstrates full-stack CRUD development with a React frontend, Spring Boot REST API, Spring Data JPA persistence, and MySQL database integration. It is suitable for discussing component-based UI development, REST endpoint design, asynchronous API communication, entity persistence, routing, and basic exception handling.
+- Input validation and error messages
+- User authentication
+- Search and pagination
+- Docker deployment
